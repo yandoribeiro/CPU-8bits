@@ -1,1 +1,3 @@
-# CPI-8bits
+A Unidade Lógica e Aritmética (ALU) é um dos principais componentes de um processador, sendo responsável por executar operações matemáticas e lógicas fundamentais, como soma, subtração, multiplicação, divisão e deslocamento de bits. Neste primeiro momento do projeto projeto, foi desenvolvida apenas a ALU de 8 bits utilizando circuitos lógicos no software Digital, com o objetivo de compreender, na prática, como essas operações são realizadas em nível de hardware.
+
+A construção envolveu a integração de diferentes componentes, como registradores, multiplexadores e unidades de controle, permitindo a execução das operações de forma sequencial e controlada por sinais de entrada. Esse tipo de implementação é essencial para entender o funcionamento interno de sistemas computacionais e como instruções são processadas em nível mais baixo.
