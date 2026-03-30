@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>meia-soma.dig</elementName>
+      <elementAttributes/>
+      <pos x="700" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>A</string>
+        </entry>
+      </elementAttributes>
+      <pos x="640" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>B</string>
+        </entry>
+      </elementAttributes>
+      <pos x="640" y="660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>meia-soma.dig</elementName>
+      <elementAttributes/>
+      <pos x="860" y="720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Ci</string>
+        </entry>
+      </elementAttributes>
+      <pos x="640" y="720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1000" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Co</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1100" y="640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1100" y="720"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="660" y="640"/>
+      <p2 x="700" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="640"/>
+      <p2 x="940" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="640"/>
+      <p2 x="1100" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="720"/>
+      <p2 x="860" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="720"/>
+      <p2 x="1100" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="740"/>
+      <p2 x="860" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="740"/>
+      <p2 x="960" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="660"/>
+      <p2 x="660" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="660"/>
+      <p2 x="1000" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="600"/>
+      <p2 x="660" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="620"/>
+      <p2 x="700" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="620"/>
+      <p2 x="820" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="620"/>
+      <p2 x="1000" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="660"/>
+      <p2 x="960" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="620"/>
+      <p2 x="820" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="600"/>
+      <p2 x="660" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="640"/>
+      <p2 x="660" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="620"/>
+      <p2 x="940" y="640"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
